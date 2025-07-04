@@ -32,7 +32,7 @@ def busqueda_precio(p_min, p_max):
     
     if disponibles:
         disponibles.sort()
-        print(f"Los notebooks entre los precios consultas son: {disponibles}")
+        print(f"Los notebooks entre los precios consultados son: {disponibles}")
     
     else:
         print("No hay notebooks en ese rango de precios.")
